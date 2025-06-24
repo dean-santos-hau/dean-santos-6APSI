@@ -68,6 +68,17 @@ input {
     box-shadow: var(--shadow-3);
 }
 
+a { 
+    align-self: flex-start;
+    color: var(--blue);
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: var(--sky-blue);
+}
+
 #login-button {
     font-size: 1.3rem;
     margin: 20px;

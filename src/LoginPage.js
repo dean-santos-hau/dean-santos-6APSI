@@ -19,6 +19,9 @@ function LoginPage() {
             placeholder="Password"
         
           />
+
+          <a href="" className='forgot-password'>Forgot password</a>
+          
           <button >Login</button>
         </form>
       </div>

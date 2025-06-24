@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function LoginPage() {
  
   return (
-    <div>
+    <div className='login-page-wrapper'>
       <h2>Login</h2>
       <input
         type="text"

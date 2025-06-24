@@ -11,18 +11,23 @@ function LoginPage() {
           <input
           type="text"
           placeholder="Username"
-        
+          required
           />
           <label>Password</label>
           <input
             type="password"
             placeholder="Password"
-        
+            required
           />
 
           <a href="" className='forgot-password'>Forgot password</a>
 
-          <button >Login</button>
+          <button 
+            type='submit' 
+            id="login-button"
+          >
+            Login
+          </button>
         </form>
 
         <p>

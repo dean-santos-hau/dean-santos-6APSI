@@ -7,11 +7,13 @@ function LoginPage() {
       <div className='login-container'>
         <h2>Login</h2>
         <form>
+          <label>Username</label>
           <input
           type="text"
           placeholder="Username"
         
           />
+          <label>Password</label>
           <input
             type="password"
             placeholder="Password"

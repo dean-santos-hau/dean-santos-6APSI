@@ -1,4 +1,5 @@
 import './LandingPage.css';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
   return (
@@ -7,7 +8,7 @@ function LandingPage() {
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li>Login</li>
+                <li><Link to="/LoginPage">Login</Link></li>            
             </ul>
         </nav>
         <div className="landing-page-container">

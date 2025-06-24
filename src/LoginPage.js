@@ -21,9 +21,14 @@ function LoginPage() {
           />
 
           <a href="" className='forgot-password'>Forgot password</a>
-          
+
           <button >Login</button>
         </form>
+
+        <p>
+          Dont have an account? <a href=''>Sign up</a>
+        </p>
+
       </div>
     </div>
   );

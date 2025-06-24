@@ -14,3 +14,9 @@
     align-items: center;
     min-height: 100vh;
 }
+
+h1 {
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+}

@@ -7,7 +7,9 @@
 
 .landing-page-wrapper {
     height: 100vh;
+    width: 100%;
 }
+
 .landing-page-container {
     background-image: url(https://marketplace.canva.com/EAF5FxQlSGQ/1/0/1600w/canva-blue-and-white-illustrated-sky-and-airplane-desktop-wallpaper-zYA4XGHAYo0.jpg);
     background-size: cover;
@@ -16,6 +18,22 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1.5rem;
+    padding-right: 2.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 36px;
 }
 
 h1 {

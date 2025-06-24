@@ -5,9 +5,14 @@ import LandingPage from './LandingPage';
 
 function App() {
   return (
-    <div>
-      <LoginPage />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/LandingPage" element={<LoginPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

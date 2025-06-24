@@ -6,17 +6,19 @@ function LoginPage() {
     <div className='login-page-wrapper'>
       <div className='login-container'>
         <h2>Login</h2>
-        <input
+        <form>
+          <input
           type="text"
           placeholder="Username"
         
-        /><br />
-        <input
-          type="password"
-          placeholder="Password"
-      
-        /><br />
-        <button >Login</button>
+          />
+          <input
+            type="password"
+            placeholder="Password"
+        
+          />
+          <button >Login</button>
+        </form>
       </div>
     </div>
   );
